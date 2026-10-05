@@ -23,10 +23,9 @@ public class OrganizationSystem {
 
     static ArrayList<Employee> employees = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
-
-    // =========================
+    
     // ADD EMPLOYEE
-    // =========================
+    
     static void addEmployee() {
 
         System.out.println("\n--- ADD EMPLOYEE ---");
@@ -81,9 +80,8 @@ public class OrganizationSystem {
         System.out.println("Employee added successfully!");
     }
 
-    // =========================
     // FIND EMPLOYEE
-    // =========================
+    
     static Employee findEmployee(int id) {
 
         for (Employee employee : employees) {
@@ -96,9 +94,8 @@ public class OrganizationSystem {
         return null;
     }
 
-    // =========================
     // VIEW ALL EMPLOYEES
-    // =========================
+    
     static void viewEmployees() {
 
         System.out.println("\n--- ALL EMPLOYEES ---");
@@ -121,9 +118,8 @@ public class OrganizationSystem {
         System.out.println("----------------------------------");
     }
 
-    // =========================
     // SEARCH EMPLOYEE
-    // =========================
+    
     static void searchEmployee() {
 
         System.out.println("\n--- SEARCH EMPLOYEE ---");
@@ -146,9 +142,8 @@ public class OrganizationSystem {
         System.out.println("Net Payment: " + employee.netPayment());
     }
 
-    // =========================
     // UPDATE EMPLOYEE
-    // =========================
+    
     static void updateEmployee() {
 
         System.out.println("\n--- UPDATE EMPLOYEE ---");
@@ -195,9 +190,8 @@ public class OrganizationSystem {
         System.out.println("Employee updated successfully!");
     }
 
-    // =========================
     // DELETE EMPLOYEE
-    // =========================
+   
     static void deleteEmployee() {
 
         System.out.println("\n--- DELETE EMPLOYEE ---");
@@ -230,9 +224,8 @@ public class OrganizationSystem {
         }
     }
 
-    // =========================
     // CALCULATE PAYMENT
-    // =========================
+   
     static void calculatePayment() {
 
         System.out.println("\n--- CALCULATE PAYMENT ---");
@@ -257,9 +250,8 @@ public class OrganizationSystem {
         System.out.println("Net Payment: " + payment);
     }
 
-    // =========================
     // GENERATE REPORT
-    // =========================
+
     static void generateReport() {
 
         System.out.println("\n==========================================");
@@ -284,9 +276,8 @@ public class OrganizationSystem {
         System.out.println("------------------------------------------");
     }
 
-    // =========================
     // MAIN MENU
-    // =========================
+
     public static void main(String[] args) {
 
         int choice;
